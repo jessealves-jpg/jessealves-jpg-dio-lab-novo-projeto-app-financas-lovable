@@ -1,104 +1,53 @@
-Crie um App de finanças pessoais com base no seguinte PRD:
+PRD Refinado – App de Organização Financeira Conversacional
 
-PRD - App de Organização Financeira com Conversa Natural
 Visão Geral
-Criar um aplicativo de organização de finanças pessoais que funcione por meio de conversas em linguagem natural.
-
-O objetivo é tornar o controle financeiro mais intuitivo, acessível e livre de burocracias como planilhas ou formulários complexos.
+Um aplicativo de finanças pessoais baseado em conversa natural, que elimina a complexidade de planilhas e formulários, oferecendo uma experiência fluida, acessível e personalizada.
 
 Problema a Resolver
-Muitas pessoas abandonam o controle financeiro por acharem os aplicativos atuais complicados, exigindo entradas manuais e oferecendo pouca personalização.
-
-Queremos resolver isso com uma experiência conversacional fluida e recomendações automáticas que se adaptam ao perfil do usuário.
+- Usuários abandonam apps financeiros por serem burocráticos e pouco intuitivos.
+- Falta de personalização e excesso de entradas manuais.
+- Necessidade de uma solução inclusiva e acessível para iniciantes.
 
 Público-Alvo
-Pessoas que desejam começar a organizar suas finanças de forma prática e sem complicações — especialmente iniciantes que não têm familiaridade com apps financeiros tradicionais.
+- Pessoas que desejam começar a organizar suas finanças sem complicações.
+- Usuários iniciantes em apps financeiros.
+- Pessoas com baixa familiaridade digital ou que valorizam acessibilidade.
 
-Funcionalidades-Chave
-Registro de gastos via chat: O usuário descreve seus gastos em linguagem natural, como “gastei R$ 30 no mercado”.
+Funcionalidades-Chave (MVP)
+1. Chat Financeiro
+   - Registro de gastos via linguagem natural (“gastei R$ 30 no mercado”).
+   - Classificação automática de transações.
 
-Classificação automática de transações: O app identifica e categoriza os gastos com base no texto.
+2. Metas Financeiras
+   - Criação e acompanhamento de metas (“economizar R$ 500 até o fim do mês”).
+   - Alterar ou apagar metas mantendo a formatação do usuário.
 
-Definição e acompanhamento de metas financeiras: O usuário pode criar metas como “economizar R$ 500 até o fim do mês”.
+3. Relatórios Simples e Personalizados
+   - Visualização de gastos por categoria.
+   - Gráficos de despesas e aplicações financeiras.
+   - Perfis de relatórios (minimalista, detalhado, visual).
 
-Dicas personalizadas do Agente Financeiro: Um assistente virtual que sugere formas de economizar com base nos hábitos do usuário.
+4. Assistente Financeiro Inteligente
+   - Sugestões proativas (“Você já registrou seus gastos de hoje?”).
+   - Dicas personalizadas de economia.
+   - Previsão de gastos futuros com base em padrões históricos.
+   - Simulação de cenários (“se eu cortar 20% dos gastos com lazer…”).
 
-Relatórios simples e personalizados: Visualizações claras dos gastos, metas e progresso, adaptadas ao estilo do usuário.
+5. Configurações e Acessibilidade
+   - Tema escuro/claro.
+   - Troca de senha.
+   - Controle granular do histórico (apagar seletivamente).
+   - Comandos por voz e compatibilidade com leitores de tela.
 
-Geração de gráficos de aplicações financeiras (mostrar onde foi aplicado).
+6. Segurança e Privacidade
+   - Autenticação biométrica (Face ID, impressão digital).
+   - Criptografia ponta a ponta.
+   - Persistência de dados (lançamentos permanecem salvos).
 
-Gráficos de saída de valores (visualização de despesas).
-
-Configurações: tema escuro ou claro, troca de senha e acessibilidade.
-
-Opção de apagar histórico de conversas do chat.
-
-Criar ou apagar metas (mantendo formatação do usuário).
-
-Integração com bancos e cartões (open banking).
-
-Importação automática de transações (PIX, boletos).
-
-Exportação para Excel/Google Sheets.
-
-Alertas inteligentes (quando orçamento estiver perto do limite).
-
-Previsão de gastos futuros baseada em padrões históricos.
-
-Simulação de cenários financeiros (“se eu cortar 20% dos gastos com lazer…”).
-
-Comandos por voz e acessibilidade ampliada.
-
-Respostas multimodais (texto, áudio, gráficos).
-
-Sugestões proativas do assistente (“Você já registrou seus gastos de hoje?”).
-
-Gamificação: conquistas, badges e recompensas virtuais.
-
-Perfis de relatórios personalizáveis (minimalista, detalhado, visual).
-
-Autenticação biométrica (Face ID, impressão digital).
-
-Criptografia ponta a ponta para dados sensíveis.
-
-Controle granular de histórico (apagar seletivamente).
-
-Educação financeira integrada: mini cursos, glossário interativo, recomendações de leitura.
-
-Perfil do usuário: exibir o nome do usuário logado.
-
-Metas financeiras: o usuário estipula o valor da meta.
-
-Relatórios: incluir campo de gastos por categoria.
-
-Cadastro de novos usuários: iniciar com dados zerados.
-
-Persistência de dados: ao sair da tela, os lançamentos permanecem salvos.
-
-Identificação de lançamentos por espécie de moeda (ex.: Dólar, Euro, Reais).
-
-Princípio de Design Universal
-A solução será construída com base em Design Universal, garantindo que o aplicativo ofereça uma experiência acessível, intuitiva e inclusiva para o maior número possível de pessoas — independentemente de idade, nível de alfabetização digital, limitações físicas ou cognitivas.
-
-Isso inclui:
-
-Interface clara e legível
-
-Navegação simples e sem sobrecarga de informações
-
-Compatibilidade com leitores de tela e comandos por voz
-
-Feedbacks visuais e auditivos para facilitar o uso
-
-Login e senha obrigatórios para acesso
-
-Entregável da IA
-Gerar um plano de MVP contendo:
-
-As principais telas (chat, metas, relatórios, configurações, perfil)
-
-Recursos técnicos necessários (NLP, categorização automática, motor de recomendações, integração bancária, criptografia, persistência de dados, suporte a múltiplas moedas)
-
+Funcionalidades Futuras (Pós-MVP)
+- Integração com bancos e cartões (open banking).
+- Importação automática de transações (PIX, boletos).
+- Exportação para
 Estratégia de validação inicial com usuários reais (testes com grupos pequenos, coleta de feedback, ajustes rápidos)
 
 Linguagem acessível e tom educativo, em português
